@@ -1,131 +1,43 @@
-.main-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 .container {
-  display: grid;
-  grid-template-areas: "screen screen screen screen" "AC operations procentage divide" "seven eight nine multiply" "four five six minus" "one two three plus" "zero zero period equal";
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  align-items: center;
-  width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
 }
 
-.item {
-  text-align: center;
-  padding: 2rem;
-  font-size: 2rem;
-  background-color: rgb(224, 224, 224);
-  border: 1px solid rgb(200, 200, 200);
-  cursor: pointer;
+.grid-item {
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+    background-color: rgb(221, 217, 217);
+    border: 1px solid rgb(202, 201, 201);
+    cursor: pointer;
 }
 
-.item:first-child {
-  text-align: end;
-  padding-right: 10px;
-  background-color: rgb(143, 144, 161);
-  color: white;
-  grid-area: screen;
-  cursor: default;
+.display {
+    grid-column: 1 / span 4;
+    text-align: end;
+    padding-right: 1rem;
+    background-color: rgb(135, 136, 151);
+    color: #fff;
+    cursor: default;
+}
+
+::placeholder {
+    color: #fff;
 }
 
 .operation {
-  background-color: rgb(237, 144, 62);
-}
-
-.AC {
-  grid-area: AC;
-}
-
-.operations {
-  grid-area: operations;
-}
-
-.procentage {
-  grid-area: procentage;
-}
-
-.divide {
-  grid-area: divide;
-}
-
-.seven {
-  grid-area: seven;
-}
-
-.eight {
-  grid-area: eight;
-}
-
-.nine {
-  grid-area: nine;
-}
-
-.multiply {
-  grid-area: multiply;
-}
-
-.four {
-  grid-area: four;
-}
-
-.five {
-  grid-area: five;
-}
-
-.six {
-  grid-area: six;
-}
-
-.minus {
-  grid-area: minus;
-}
-
-.one {
-  grid-area: one;
-}
-
-.two {
-  grid-area: two;
-}
-
-.three {
-  grid-area: three;
-}
-
-.plus {
-  grid-area: plus;
+    background-color: rgb(240, 147, 65);
 }
 
 .zero {
-  grid-area: zero;
-}
-
-.period {
-  grid-area: period;
-}
-
-.equal {
-  grid-area: equal;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .container {
-    width: 80%;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .container {
-    width: 40%;
-  }
+    grid-column: 1 / span 2;
 }
 
 @media only screen and (max-height: 300px) {
-  .container {
-    height: 100vh;
-  }
+    .container {
+        height: 100vh;
+    }
 }
