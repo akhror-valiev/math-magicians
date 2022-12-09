@@ -32,7 +32,7 @@
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
     <li><a href="https://reactjs.org/docs/introducing-jsx.html">JSX</a></li>
-  </ul>npm
+
 </details>
 
 ### Key Features <a name="key-features"></a>
