@@ -1,43 +1,43 @@
-.container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  align-items: center;
-  width: 80%;
-  max-width: 600px;
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
 }
 
-.grid-item {
-  text-align: center;
-  padding: 2rem;
-  font-size: 3rem;
-  background-color: rgb(221, 217, 217);
-  border: 1px solid rgb(202, 201, 201);
-  cursor: pointer;
+.grid-container {
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+    background-color: rgb(224, 224, 224);
+    border: 1px solid rgb(200, 200, 200);
+    cursor: pointer;
 }
 
 .display {
-  grid-column: 1 / span 4;
-  text-align: end;
-  padding-right: 1rem;
-  background-color: rgb(135, 136, 151);
-  color: #fff;
-  cursor: default;
+    grid-column: 1 / span 4;
+    text-align: end;
+    padding-right: 1rem;
+    background-color: rgb(133, 134, 147);
+    color: #fff;
+    cursor: default;
 }
 
 ::placeholder {
-  color: #fff;
+    color: #fff;
 }
 
 .operation {
-  background-color: rgb(240, 147, 65);
+    background-color: rgb(237, 144, 62);
 }
 
 .zero {
-  grid-column: 1 / span 2;
+    grid-column: 1 / span 2;
 }
 
 @media only screen and (max-height: 300px) {
-  .container {
-    height: 100vh;
-  }
+    .container {
+        height: 100vh;
+    }
 }
