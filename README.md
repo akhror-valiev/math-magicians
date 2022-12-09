@@ -61,11 +61,11 @@ After you're finished please remove all the comments and instructions!
 
 > Describe your project in 1 or 2 sentences.
 
-**[Math-Magicians]** is a...
+**[Math-Magicians]** is a React.js project build with class component and functioncal component
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="built-with">JavaScript</a>
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack">React.js</a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
