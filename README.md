@@ -32,7 +32,7 @@
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
     <li><a href="https://reactjs.org/docs/introducing-jsx.html">JSX</a></li>
-  </ul>
+  </ul>npm
 </details>
 
 ### Key Features <a name="key-features"></a>
@@ -46,7 +46,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://startling-cucurucho-3c3e45.netlify.app/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
