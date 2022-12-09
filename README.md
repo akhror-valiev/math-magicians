@@ -128,7 +128,7 @@ In order to run this project you need:
 Example command:
 
 ```sh
- gem install rails
+ npm install
 ```
  -->
 
@@ -141,7 +141,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/akhror-valiev/math-magicians.git
 ```
 --->
 
@@ -154,7 +154,7 @@ Example command:
 
 ```sh
   cd my-project
-  gem install
+  npm install
 ```
 --->
 
