@@ -40,3 +40,8 @@ input[type="button"]:active {
   padding: 10px;
   text-align: right;
 }
+
+nav a.active {
+  text-decoration: none;
+  font-weight: bold;
+}
