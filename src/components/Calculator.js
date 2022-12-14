@@ -58,7 +58,7 @@ const Calculator = (props) => {
         className="grid-container multiply operation"
         onClick={handleClick}
       >
-        ×
+        x
       </button>
       <button type="button" className="grid-container four" onClick={handleClick}>
         4
